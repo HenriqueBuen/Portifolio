@@ -5,7 +5,7 @@ export default function ExtraInfo() {
     
     <div className="w-full h-96 gap-y-5 sm:gap-y-5 md:gap-y-5 lg:gap-y-5 flex flex-col justify-center items-center sm:w-[90%] md:w-[50%] lg:w-[30%] sm:items-center md:items-start lg:items-start mt-3">
       {/* Extra Information, story, New src e foco atual */ }
-        <div className="justify-center px-2 items-center flex flex-col gap-2 sm:items-center md:items-start lg:items-start">
+        <div className="justify-center px-5 items-center flex flex-col gap-2 sm:items-center md:items-start lg:items-start">
             <h2 className="text-xl font-bold text-amber-50">Sobre mim</h2>
             <p className="text-amber-50 text-center text-md sm:text-sm md:text-md lg:text-lg sm:text-start md:text-center lg:text-left">Estudante de Banco de Dados em busca de estágio na área de dados. Possui experiência prática em coleta, tratamento e
               visualização de dados adquirida em ambiente corporativo, incluindo criação de dashboards no Power BI e Excel Avançado, análise

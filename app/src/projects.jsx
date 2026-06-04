@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function projects() {
   return (
     <div className="w-full h-auto relative overflow-hidden flex items-center justify-center gap-8 flex-col mt-32 p-2">
-      <h1 className="text-xl font-bold text-white">Projects</h1>
+      <h1 className="text-xl font-bold text-white">Projetos</h1>
       {/* Container Projects cards*/}
       <div className="w-full h-full flex flex-col items-center justify-center gap-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row ">
       {/* Project 1 */}

@@ -20,7 +20,7 @@ export default function projects() {
                   <h1 className="text-cyan-400 font-bold text-xs">current</h1>
                 </div>
               </div>
-            <p className="text-gray-400 max-w-xs break-all">Projeto de análise exploratória para entender padrões de consumo e identificar oportunidades de controle financeiro pessoal.</p>
+            <p className="text-gray-400 max-w-xs">Projeto de análise exploratória para entender padrões de consumo e identificar oportunidades de controle financeiro pessoal.</p>
           </div>
         </div>
       </Link>
@@ -34,7 +34,7 @@ export default function projects() {
                   <h1 className="text-cyan-400 font-bold text-xs">current</h1>
                 </div>
               </div>
-            <p className="text-gray-400 max-w-xs break-all">Um projeto de visão computacional que usa OpenCV e NumPy para detectar vagas de estacionamento livres ou ocupadas em vídeos em tempo real, aplicando técnicas práticas de análise de imagens.</p>
+            <p className="text-gray-400 max-w-xs">Um projeto de visão computacional que usa OpenCV e NumPy para detectar vagas de estacionamento livres ou ocupadas em vídeos em tempo real, aplicando técnicas práticas de análise de imagens.</p>
           </div>
         </div>
       </Link>

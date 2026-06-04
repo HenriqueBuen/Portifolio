@@ -4,14 +4,14 @@ import local from "../assets/local.jpg"
 
 export default function projects() {
   return (
-    <div className="w-full h-auto relative overflow-hidden flex items-center justify-center gap-8 flex-col mt-32">
+    <div className="w-full h-auto relative overflow-hidden flex items-center justify-center gap-8 flex-col mt-32 p-2">
       <h1 className="text-xl font-bold text-white">Projects</h1>
       {/* Container Projects cards*/}
       <div className="w-full h-full flex flex-col items-center justify-center gap-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row ">
       {/* Project 1 */}
-      <div href="https://github.com/HenriqueBuen/analise-gastos-cartao" className="w-auto flex items-center justify-center border-white/20 rounded-4xl gap-8 flex-col hover:scale-105 hover:border-cyan-300 border transition-transform cursor-pointer">
+      <div href="https://github.com/HenriqueBuen/analise-gastos-cartao" className="w-auto flex items-center justify-center gap-8 flex-col ">
         {/* Card, titulo, tag, descrição, data e local */}
-        <div className="flex flex-row border border-white/20 p-6 h-[21vh] rounded-lg shadow-lg bg-black/20">
+        <div className="flex flex-row p-6 h-[21vh] rounded-lg border-white/20 shadow-lg bg-black/20 hover:scale-105 hover:border-cyan-300 border transition-transform cursor-pointer">
           <div className="flex flex-col items-start gap-1 mr-8">
             <div className="flex flex-row items-center gap-2">
               <h2 className="text-white font-bold">Análise de Gastos Cartão</h2>
@@ -24,8 +24,8 @@ export default function projects() {
         </div>
       </div>
       {/* Project 2 */}
-      <div href="https://github.com/HenriqueBuen/ParkVision" className="w-auto flex items-center justify-center border-white/20 rounded-4xl gap-8 flex-col hover:scale-105 hover:border-cyan-300 border transition-transform cursor-pointer">
-        <div className="flex flex-row border border-white/20 p-6 rounded-lg shadow-lg bg-black/20">
+      <div href="https://github.com/HenriqueBuen/ParkVision" className="w-auto flex items-center justify-center border-white/20 rounded-lg gap-8 flex-col hover:scale-105 hover:border-cyan-300 border transition-transform cursor-pointer">
+        <div className="flex flex-row p-6 rounded-lg shadow-lg bg-black/20">
           <div className="flex flex-col items-start gap-1 mr-8">
             <div className="flex flex-row items-center gap-2">
               <h2 className="text-white font-bold">ParkVision</h2>

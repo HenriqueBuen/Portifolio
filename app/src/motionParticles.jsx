@@ -36,7 +36,7 @@ export default function ParticlesTest() {
       </div>
 
       {/* 3. SEÇÃO FERRAMENTAS - Removido mt-16 para não criar um vão preto antes do fundo */}
-      <div className="w-full relative flex items-center justify-center gap-8 md:flex-row flex-col mt- ">
+      <div className="w-full relative flex items-center justify-center gap-8 md:flex-row flex-col mt-16">
         <Stacks />
       </div>
 

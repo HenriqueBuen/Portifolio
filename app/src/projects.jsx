@@ -9,7 +9,7 @@ export default function projects() {
       {/* Container Projects cards*/}
       <div className="w-full h-full flex flex-col items-center justify-center gap-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row ">
       {/* Project 1 */}
-      <div href="https://github.com/HenriqueBuen/analise-gastos-cartao" className="w-auto flex items-center justify-center gap-8 flex-col hover:scale-105 hover:border-cyan-300 transition-transform cursor-pointer">
+      <div href="https://github.com/HenriqueBuen/analise-gastos-cartao" className="w-auto flex items-center justify-center gap-8 flex-col hover:scale-105 hover:border-cyan-300 border transition-transform cursor-pointer">
         {/* Card, titulo, tag, descrição, data e local */}
         <div className="flex flex-row border border-white/20 p-6 h-[21vh] rounded-lg shadow-lg bg-black/20">
           <div className="flex flex-col items-start gap-1 mr-8">
@@ -24,7 +24,7 @@ export default function projects() {
         </div>
       </div>
       {/* Project 2 */}
-      <div href="https://github.com/HenriqueBuen/ParkVision" className="w-auto flex items-center justify-center gap-8 flex-col hover:scale-105 hover:border-cyan-300 transition-transform cursor-pointer">
+      <div href="https://github.com/HenriqueBuen/ParkVision" className="w-auto flex items-center justify-center gap-8 flex-col hover:scale-105 hover:border-cyan-300 border transition-transform cursor-pointer">
         <div className="flex flex-row border border-white/20 p-6 rounded-lg shadow-lg bg-black/20">
           <div className="flex flex-col items-start gap-1 mr-8">
             <div className="flex flex-row items-center gap-2">

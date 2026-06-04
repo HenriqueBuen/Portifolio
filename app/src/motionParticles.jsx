@@ -30,7 +30,7 @@ export default function ParticlesTest() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
       {/* 1. SEÇÃO SOBRE MIM (Amarela) - Substituído por min-h e adicionado padding vertical */}
-      <div className="w-full h-screen flex items-center justify-center gap-8 md:flex-row flex-col">
+      <div className="w-full h-screen flex items-center justify-center gap-8 md:flex-row flex-col mt-16">
         <Banner />
         <ExtraInfo />
       </div>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function ExtraInfo() {
   return (
     
-    <div className="w-full h-96 gap-y-3 flex flex-col justify-center items-center sm:w-[90%] md:w-[50%] lg:w-[30%] sm:items-center md:items-start lg:items-start">
+    <div className="w-full h-96 gap-y-10 sm:gap-y-5 md:gap-y-5 lg:gap-y-5 flex flex-col justify-center items-center sm:w-[90%] md:w-[50%] lg:w-[30%] sm:items-center md:items-start lg:items-start">
       {/* Extra Information, story, New src e foco atual */ }
         <div className="justify-center items-center flex flex-col gap-2 sm:items-center md:items-start lg:items-start">
             <h2 className="text-xl font-bold text-amber-50 px-4">Sobre mim</h2>

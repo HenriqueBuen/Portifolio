@@ -5,9 +5,9 @@ export default function ExtraInfo() {
     
     <div className="w-full h-96 gap-y-5 flex flex-col justify-center items-start sm:w-[90%] md:w-[50%] lg:w-[30%]">
       {/* Extra Information, story, New src e foco atual */ }
-        <div className="sm:justify-start items-start flex flex-col gap-2">
+        <div className="justify-center items-start flex flex-col gap-2">
             <h2 className="text-xl font-bold text-amber-50">Sobre mim</h2>
-            <p className="text-amber-50 w-md">Estudante de Banco de Dados em busca de estágio na área de dados. Possui experiência prática em coleta, tratamento e
+            <p className="text-amber-50 max-w-md break-all ">Estudante de Banco de Dados em busca de estágio na área de dados. Possui experiência prática em coleta, tratamento e
               visualização de dados adquirida em ambiente corporativo, incluindo criação de dashboards no Power BI e Excel Avançado, análise
               exploratória de dados do ERP SAP e consultas SQL em MySQL, PostgreSQL e SQL Server. Complementa o perfil com background
               em suporte de TI, o que permite compreender os sistemas na origem dos dados. Perfil analítico, proativo e com facilidade de

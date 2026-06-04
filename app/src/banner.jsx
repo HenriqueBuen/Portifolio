@@ -8,7 +8,7 @@ export default function Banner() {
     var description = "Analista de Dados"
 
   return (
-        <div className="flex flex-col justify-center items-center w-96 h-[39vh] p-4 rounded-2xl bg-black/20 backdrop-blur-md border border-white/20 shadow-xl text-white">
+        <div className="flex flex-col justify-center items-center w-96 h-[39vh] p-4 rounded-2xl bg-black/20 backdrop-blur-md border border-white/20 shadow-xl text-white sm:w-[90%] md:w-[50%] lg:w-[20%] ">
             {/* CORRIGIDO: Agora passando perfilImg direto, sem o .src */}
             <Image 
               src={PerfilImg}
